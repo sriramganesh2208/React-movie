@@ -1,0 +1,81 @@
+.Movie {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.Movie__intro {
+    width: 80%;
+}
+
+.Movie__backdrop {
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    
+}
+
+.Movie__detail {
+    align-items: center;
+    width: 75%;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.Movie__detailLeft {
+    margin-right: 30px;
+}
+
+.Movie__poster {
+     width: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.Movie__detailRight {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content:space-between ;
+}
+
+.Movie__detailRightTop > div{
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .5rem;
+}
+
+.Movie__name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.Movie__voteCount {
+    margin-left: 1rem;
+}
+
+
+
+.Movie__detailRightBottom {
+    flex: 0.8;
+    margin: 2rem 0;
+    
+}
+
+.SynopsisText {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.SynopsisText > div:last-of-type {
+    margin-left: auto;
+}
+
+
+

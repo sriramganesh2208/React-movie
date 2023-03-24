@@ -1,0 +1,59 @@
+.Cards-img{
+    display: inline-block;
+    flex-direction: column;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    opacity:1
+}
+
+.Cards-img:hover{
+    opacity: 0.4;
+}
+
+
+.Cards{
+    display: inline-block;
+    transition: transform 0.2s;
+    position: relative;   
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    
+    z-index: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.Cards:hover{
+    transform: scale(1.24);
+    z-index: 7000;
+   
+}
+
+.Cards-overlay{
+    position: absolute;
+    bottom: 10%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: gold;
+}
+
+.Cards-overlay:hover{
+    opacity: 1;
+}
+
+.Card-title{
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+
